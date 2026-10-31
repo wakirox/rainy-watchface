@@ -1,0 +1,11 @@
+[versions]
+agp = "9.4.1"
+playPublisher = "4.1.1"
+watchfaceValidator = "1.1.0-alpha01"
+
+[libraries]
+watchface-validator-push-cli = { module = "com.google.android.wearable.watchface.validator:validator-push-cli", version.ref = "watchfaceValidator" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+play-publisher = { id = "com.github.triplet.play", version.ref = "playPublisher" }

@@ -1,0 +1,58 @@
+{
+  "en": {
+    "hero_rain": "Rain",
+    "hero_dry": "Dry",
+    "tile_rain_until": "Until %1$s",
+    "tile_rain_from": "From %1$s",
+    "tile_rain_between": "%1$s–%2$s",
+    "tile_rain_possible": "Possible"
+  },
+  "it": {
+    "hero_rain": "Pioggia",
+    "hero_dry": "Asciutto",
+    "tile_rain_until": "Fino alle %1$s",
+    "tile_rain_from": "Dalle %1$s",
+    "tile_rain_between": "%1$s–%2$s",
+    "tile_rain_possible": "Possibile"
+  },
+  "fr": {
+    "hero_rain": "Pluie",
+    "hero_dry": "Sec",
+    "tile_rain_until": "Jusqu'à %1$s",
+    "tile_rain_from": "À partir de %1$s",
+    "tile_rain_between": "%1$s–%2$s",
+    "tile_rain_possible": "Possible"
+  },
+  "es": {
+    "hero_rain": "Lluvia",
+    "hero_dry": "Seco",
+    "tile_rain_until": "Hasta las %1$s",
+    "tile_rain_from": "Desde las %1$s",
+    "tile_rain_between": "%1$s–%2$s",
+    "tile_rain_possible": "Posible"
+  },
+  "de": {
+    "hero_rain": "Regen",
+    "hero_dry": "Trocken",
+    "tile_rain_until": "Bis %1$s",
+    "tile_rain_from": "Ab %1$s",
+    "tile_rain_between": "%1$s–%2$s",
+    "tile_rain_possible": "Möglich"
+  },
+  "ro": {
+    "hero_rain": "Ploaie",
+    "hero_dry": "Uscat",
+    "tile_rain_until": "Până la %1$s",
+    "tile_rain_from": "De la %1$s",
+    "tile_rain_between": "%1$s–%2$s",
+    "tile_rain_possible": "Posibil"
+  },
+  "hi": {
+    "hero_rain": "बारिश",
+    "hero_dry": "सूखा",
+    "tile_rain_until": "%1$s तक",
+    "tile_rain_from": "%1$s से",
+    "tile_rain_between": "%1$s–%2$s",
+    "tile_rain_possible": "संभव"
+  }
+}

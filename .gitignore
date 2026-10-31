@@ -1,0 +1,13 @@
+.gradle/
+.kotlin/
+build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+# Signing and Play credentials: never committed.
+keystore.properties
+*.jks
+*.keystore
+play-credentials.json
+__pycache__/
