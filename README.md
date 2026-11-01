@@ -82,19 +82,6 @@ ignored. A signed `bundleRelease` validates its APK first.
 Release builds are signed with the key in `keystore.properties` at the repo root (gitignored: `storeFile`,
 `storePassword`, `keyAlias`, `keyPassword`); without it they are unsigned.
 
-## Publishing
-
-With [Gradle Play Publisher](https://github.com/Triple-T/gradle-play-publisher): credentials from
-`ANDROID_PUBLISHER_CREDENTIALS` or `play-credentials.json` at the repo root (gitignored).
-
-```bash
-./gradlew :watchface:publishReleaseBundle    # upload to the internal track
-./gradlew :watchface:promoteReleaseArtifact --from-track internal --promote-track production
-```
-
-Bump `face.versionCode` and `face.versionName` in `gradle.properties` for every release. The release notes are in
-`watchface/src/release/play/release-notes/en-US/default.txt` (500 characters at most).
-
 ## Licence
 
 MIT (`LICENSE`). Google Sans Flex, in `fonts/` and subset into the face, is under the SIL Open Font License
